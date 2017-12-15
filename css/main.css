@@ -38,6 +38,18 @@
    
 }
 
+.iphone {
+ background-color: #F7B617;
+}
+ .iphone-div{
+ border: 3px solid red;
+
+ width: 85%;
+ margin-bottom: 5%;
+ margin-top:5%; 
+}
+
+
 
 
 
