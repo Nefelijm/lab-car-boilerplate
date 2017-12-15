@@ -1,1 +1,49 @@
 /* Los estilos de tu proyecto */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* para mobiles */
+
+.header-nav{
+   float: left;
+   padding-bottom: 12px;
+}
+.posicion-logo{
+    float: left;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row-reverse;   
+    }
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url('../assets/images/taxi.jpg');
+    background-position: 0% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    
+}
+
+.viajes {
+    background: #F7B617;
+    width: 40%;
+   
+}
+
+
+
+
+/* para desktop */
+@media only screen and (min-width: 768px) {
+    .header-nav{
+   float: right;
+}
+}
