@@ -63,7 +63,7 @@
                                 <img class="logito" src="assets/images/logoBlanco.png" alt="">
                             </span>
                         </p>
-                        <button class="btn btn-default" >REGISTRATE</button>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">registarte</button>
                         <div class="line">
                            <hr> <span class="span-line">o bien</span><hr>
                         </div>
@@ -136,8 +136,10 @@
             </div>
         </div>
 
-    </section>    
-    <footer class="fifth-section">       
+    </section> 
+
+    <footer class="fifth-section">   
+
      <!-- footer para desktop-->
     <div class="conteiner footer-desktop">
         <div class="row">
@@ -189,6 +191,40 @@
         </div>
     <div>
  </footer>
+
+
+
+
+<!--Modal-->
+
+<!-- Modal para registrarse-->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+
+<div class=" modal-content formulario-modal">
+    <div class="modal-header">
+        <img src="assets/images/personita.png" alt="personita">
+
+    </div>
+    <form class="modal-body">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Username</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>  
+        <button type="submit" class="btn btn-default">LOGIN</button>
+    </form>
+</div>
+
+
+       
+
+
+
 
 
     <script src="vendors/js/jquery-3.2.1.min.js"></script>
