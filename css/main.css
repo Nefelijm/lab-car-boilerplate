@@ -26,56 +26,137 @@ body, html {
    
 }
 
-/* Estilos para JUMBOTRON*/
-.section-fondo{
-    
-    background-image: url('../assets/images/taxi.jpg');
-    height:500px;
-    background-repeat: no-repeat, repeat;
-    background-position: 50% 50%;
-    
-    
+/* Estilos para la primera seccion*/
+.first-section{        
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom; 
+  height:600px;   
 }
-
+.flex-container{
+    display:flex;
+    flex-direction: row-reverse;
+}
 
 .div-text {
-    z-index: 1;
-    background: #F7B617;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-/* ESTILOS DE LA PRIMERA SECCION */
-.iphone {
- background-color: #F7B617;
- 
+background-color: rgb(247,182,23);
+margin-top:27vh; 
+padding: 20px;
+letter-spacing: 2px;
+color: white;
+  
 }
 
-.iphone-image , .iphone-text {
+img.logito{
+  padding-left:14px;
+  width: 85px;
+}
+
+.line{
+  margin: 21px 0;
+}
+
+.title{
+  margin-bottom:-20px;
+}
+   hr{
+       width: 100px;
+   }    
+
+
+/* Estilos para la segunda seccion*/
+.second-section{
+    background-color: #F7B617;
+}
+.iphone-image {
+    width: 450px;
+}
+.iphone-image img{
+    width: 300px;
     height: 400px;
+    margin: 7%;
+    
+}
+
+.iphone-text {    
     color: white;
 }
 
  .iphone-div{
  border: 2px solid white;
- width: 70%; 
+ width: 90%; 
  margin-top: 5%;
  margin-bottom: 5%;
- 
- 
-}
+ }
 
-.full {
+ .iphone-image span,.second-section span {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+     }
+     
+
+/* Estilos para la tercera seccion*/
+.third-section {
     background: url('../assets/images/conduce.jpg') no-repeat;
     background-position: 0% 50%;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    text-shadow: black 0.3em 0.3em 0.3em;
     height: 400px;
+}
+.taxi-div{
+    background: rgba(0,0,0,0.5);
+    width: 380px;
+    height: 400px; 
+    
+}
+.taxi-div div {
+  margin-top: 40%;
+  font-size: 20px;
+  text-align: justify;
+  width: 350px; 
+}
+.taxi-div div button {
+    background-color: #F7B617;
+}
+
+.flex-third{
+ display: flex;
+ flex-direction: row-reverse;
+}
+/* Estilos para la cuarta seccion*/
+   .fourth-section{
+     background: #F7B617;
+     color: white;
+     font-size: 25px;
+     };
+
+.btn-default{
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10%;
+    margin-left: 25%;
+     }
+
+.maps{
+ margin-left:10%;
+ margin-top: 5%;
+ margin-bottom: 5%;
+ border: 1px solid white;
+ width: 70px;
+}
+/* Estilos para el footer seccion*/
+   .fifth-section{
+       background-color: rgb(43, 43, 43);
+       color: white;
+       height: 400px;
+   }
+.footer-desktop hr{
+    width: 90%;
+    margin-left: 5%;
+    
 }
 
 
@@ -84,6 +165,17 @@ body, html {
 /* para desktop */
 @media only screen and (min-width: 768px) {
     .header-nav{
-   float: right;
-}
+      float: right;
+     }
+     .second-section span {
+        display: none;
+    }
+    .iphone-text{
+        font-size: 23px;
+        margin-top: 2%;
+        text-align: left
+    }
+    .footer-movil{
+    display: none;
+    }
 }

@@ -12,9 +12,10 @@
 <body>
     <header >
         <nav class="navbar navbar-default navbar-fixed-top nav-container" role="navigation">
+
         <!-- El logotipo y el icono que despliega el menú se agrupan
              para mostrarlos mejor en los dispositivos móviles -->
-            <div class="container">            
+            <div class="container">
              <div class="navbar-header">
                <button type="button" class="navbar-toggle posicion-logo" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                    <span class="sr-only">Desplegar navegación</span>
@@ -22,13 +23,11 @@
                    <span class="icon-bar"></span>
                    <span class="icon-bar"></span>
                </button>
-               <img src="assets/images/logoForma.png" alt="logo">            
+               <img src="assets/images/logoForma.png" alt="logo">
             </div>
             </div>
 
-    
-         <!-- Agrupar los enlaces de navegación, los formularios y cualquier
-            otro elemento que se pueda ocultar al minimizar la barra -->
+         <!-- Agrupar los enlaces de navegación, y se pueda ocultar al minimizar la barra -->
             <div class="collapse navbar-collapse navbar-ex1-collapse ">
                 <ul class="nav navbar-nav header-nav">
                  <li >
@@ -36,106 +35,122 @@
                 </li>
                 <li>
                     <a href="#">Conduce</a>
-                </li> 
+                </li>
                 <li>
                     <a href="#">Inicia sesion</a>
                  </li>
-               
+
                 </ul>
             </div>
         </nav>
-        <section class=" jumbotron container  section-fondo">             
-           <div class="div-text">
-            <h1>Hello, world!</h1>        
-            <p>Viaja con
-              <img src="assets/images/logoBlanco.png" alt=""></p>
-            <p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">REGISTRATE</a>
-            </p>
-            <p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Convierte en un conductor</a>
-            </p>
-          </div>
-        </div>
-       </section>
+         <section >
+            <div class="container-fluid first-section">
+                <div class="row flex-container">
+                    <div class="col-xs-10 div-text rigth hidden-md hidden-lg hidden-sm">
+                        <h2 class="pad-bot">Comienza a viajar con
+                            <span>
+                                <img class="logito" src="assets/images/logoBlanco.png" alt="logo">
+                            </span>
+                        </h2>
+                        <button class="btn btn-default btn-lg">Descarga el app</button>
+                    </div>
+                    <div class=" col-md-4 div-text rigth hidden-xs">
+                        <h3 class="title ">Disfruta del viaje</h3>
+                        <h3>Eres dueño de tu vida</h3>
+                        <br>
+                        <p>Viaja con
+                            <span>
+                                <img class="logito" src="assets/images/logoBlanco.png" alt="">
+                            </span>
+                        </p>
+                        <button class="btn btn-default" >REGISTRATE</button>
+                        <div class="line">
+                           <hr> <span class="span-line">o bien</span><hr>
+                        </div>
+                        <button class="btn btn-default" >Conviértete en conductor</button>
+                    </div>
+                </div>
+            </div>
+         </section>
     </header>
-    <section class="iphone">
-        <div class="container ">
+    <section>
+        <div class="container-fluid second-section">
             <div class="row iphone-div clearFix">
                 <div class=" iphone-image col-xs-12 col-md-6 ">
-                  <img src="assets/images/iPhone6Plus.png" alt="iphone">
+                  <span> la nueva app </span>
+                     <img src="assets/images/iPhone6Plus.png" alt="iphone">
+
                 </div>
-                <div class=" iphone-text col-xs-12 col-md-6 ">
-                <span> Descarga la nueva app </span>
-                <p> La version actualizada de LabCar 
+                <div class=" iphone-text col-md-6 hidden-xs ">
+                   <p> <strong> Descarga la nueva app </strong>
+                    <br>
+                    <br>
+                    La version actualizada de LabCar
                     esta llena de nuevos funciones para
                     llegarr a donde quieras aun mas facil
-                </p>
-                <p>con solo tocar un boton, un auto llega justo a tu ubicacion.                    
-                    Subete y no te preocupes.tu conductor sabe exactamente a donde i    </p>
-                </div>                
-            </div
-        </div>          
+                   </p>
+                   <p>con solo tocar un boton, un auto llega justo a tu ubicacion.
+                    Subete y no te preocupes.tu conductor sabe exactamente a donde. </p>
+                </div>
+            </div>
+            <span> Llega a tu destino aun mas rapido </span>
+        </div>
     </section>
-    <section class="container-fluid full">
-        <div class="container">
-        <div class="row clearFix">            
-        <div class="col-xs-12" >
-            <span>Conduce cuando quieras</span>
-            <p>LabCar es una opcion flexible para alcanzar
-                tus metas financieras.
-            </p>
-            <div>
-             <button type="button" class="btn btn-warning btn-lg">Convierte en conductor</button>
-            </div>            
-        </div>
-        </div>
+    <section>
+        <div class="container-fluid third-section">
+            <div class="row clearFix flex-third">
+                <div class="col-xs-12 taxi-div" >
+                    <div>
+                        <span> <strong> Conduce cuando quieras </strong></span>
+                        <p>LabCar es una opcion flexible para alcanzar tus metas financieras.</p>
+                        <button type="button" class="btn btn-lg">Convierte en conductor</button>
+
+                    </div>
+                <div>
+            </div>
         </div>
 
     </section>
     <section>
-        <div class="container">
-            <div class="row clearFix">
-                <div class="col-xs-12 col-md-6">
+        <div class="container-fluid fourth-section">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 ">
                    <span>Tarifas</span>
                    <p> consulta las tarifas LabCar aqui  </p>
-                   <div>
-                       <img src="assets/images/shape.png" alt="shape2">
-                       <p>Insurgente Centro, Cuauhtemoc, Ciudad de Mexico</p>
-                   </div>
-                <div>
-                    <img src="assets/images/shape.png" alt="shape">
-                    <p>Carolina,Ciudad de los Deportes, Ciudad de Mexico</p>
+                   <br>
+                    <div class="div-start">
+                         <img src="assets/images/shape.png" alt="shape">
+                         <input type="text" id="start"  >
+                    </div>
+                    <br>
+                    <div class="div-end">
+                         <img src="assets/images/shape2.png" alt="shape2">
+                         <input type="text" id="end">
+                    </div>
+                    <button type="button" id="search" class="btn btn-default">¡traza la ruta!</button>
                 </div>
-                <p>
-                    <button type="button" class="btn btn-primary btn-lg">¡TRAZAR RUTA!</button>
-                    
-                </p>
-
-            </div>
-            <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-md-6 maps">
                     <img src="assets/images/mapa.png" alt="mapa">
-                
                 </div>
-                
+
             </div>
         </div>
 
-    </section>
-    <footer>
-        <div class="conteiner">
-          <div class="row">
-             <div class="col-xs-12 col-md-12">
+    </section>    
+    <footer class="fifth-section">       
+     <!-- footer para desktop-->
+    <div class="conteiner footer-desktop">
+        <div class="row">
+             <div class="col-md-12">
               <img src="assets/images/logoBlanco.png" alt="logo-blanco">
              </div>
-          </div>
-        </div>
-        <div class="conteiner">
-            <div class="row">
-                <div class="col-xs-12 col-md-3">
-                   <img src="assets/images/imagen-footer.png" alt="">
-                </div>
-                <div class="col-xs-12 col-md-3">
+        </div>        
+        <hr>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="assets/images/imagen-footer.png" alt="">
+             </div>
+            <div class="col-md-3">
                  <ul>
                     <li>Viaja</li>
                     <li>Conduce</li>
@@ -146,8 +161,8 @@
                     <li>Paises</li>
                     <li>Seguridad</li>
                  </ul>
-                </div>
-                <div class="col-xs-12 col-md-3 col-md-12">
+            </div>
+            <div class="col-md-3 ">
                 <ul>
                     <li>Oportunidades</li>
                     <li>Nuestra historia</li>
@@ -158,25 +173,22 @@
                     <li>Laboratoria</li>
                     <li>Coders</li>
                 </ul>
-                </div>
-                <div class="col-xs-12 col-md-3">
+            </div>
+            <div class="col-md-3">
                  <img src="assets/images/enBadgeWebGeneric.png" alt="generic">
                  <img src="assets/images/appstore.png" alt="app">
                 </div>
             </div>
+        <hr>
         </div>
-        <div class="conteiner">
-            <div class="row">
+        <div class="row">
                 <div class="col-xs-12">
                     <p>© 2017 LabCard Thecnology Inc</p>
                 </div>
             </div>
         </div>
-        <
-
-    </footer>
-
-    
+    <div>
+ </footer>
 
 
     <script src="vendors/js/jquery-3.2.1.min.js"></script>
